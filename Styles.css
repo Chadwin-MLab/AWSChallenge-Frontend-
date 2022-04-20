@@ -1,0 +1,37 @@
+/* Center child elements */
+div,
+.website-counter {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+div {
+  height: 7vh;
+}
+
+/* Styles for website counter container */
+.website-counter {
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Styles for reset button */
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
